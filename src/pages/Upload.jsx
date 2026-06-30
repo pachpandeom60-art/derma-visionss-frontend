@@ -20,7 +20,7 @@ function Upload() {
 
     setLoading(true);
     try {
-      const response = await fetchfetch("https://derma-visionss.onrender.com/predict", {
+      const response = await fetch("https://derma-visionss.onrender.com/predict", {
         method: "POST",
         body: formData,
       });
